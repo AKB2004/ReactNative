@@ -1,3 +1,6 @@
+/* eslint-disable space-infix-ops */
+/* eslint-disable comma-dangle */
+/* eslint-disable eol-last */
 /* eslint-disable react-native/no-inline-styles */
 import React from 'react';
 import { Text,View,StyleSheet} from 'react-native';
@@ -5,7 +8,7 @@ import { Text,View,StyleSheet} from 'react-native';
 const First = () => {
     return (
       <View>
-        <Text style={styles.text}>A Smart Hostel Management Appk</Text>
+        <Text style={styles.text}>A Smart Hostel Management App</Text>
       </View>
     )
   }

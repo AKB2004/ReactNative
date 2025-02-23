@@ -1,3 +1,5 @@
+/* eslint-disable no-trailing-spaces */
+/* eslint-disable no-alert */
 import React from 'react';
 import { TouchableOpacity,Text,StyleSheet} from 'react-native';
 
@@ -7,8 +9,8 @@ const MyButton = () => {
     <TouchableOpacity style={styles.button} onPress={() => alert('Button Pressed!')}>
       <Text style={styles.buttonText}>Get Started</Text>
     </TouchableOpacity>
-  )
-}
+  );
+};
 const styles = StyleSheet.create({
     button: {
       backgroundColor: '#43328B',
